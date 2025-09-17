@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: "spritecoder";
+    src: url("../fonts/spritecoder_regular.ttf");
+  }
+  body {
+    background-color: #f7f7ff;
+    background-image: url(../images/web-univers-background.webp);
+    background-size: cover;
+    background-size: 350vh;
+    background-repeat: no-repeat;
+
+  }
+  h1 {
+    font-family: "spritecoder";
+    text-align: center;
+    font-size: 7rem;
+    font-weight: lighter;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #011936;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul {
+    font-family: "spritecoder";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  header {
+    background-image: url(../images/web-univers-background.webp);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  li {
+    display: inline-block;
+    font-size: 2rem;
+    color: #011936;
+    }
+  .frontpage {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    
+  }
+  .articles {
+    padding-left: 11rem;
+    padding-right: 8rem;
+  }
+  .aboutus {
+    padding-left: 18rem;
+    padding-right: 8rem;
+  }
+  .contact {
+    padding-left: 10rem;
+  }
+
+  ul li ul.dropdown li {
+    display: block;
+  }
+  ul li ul.dropdown {
+    background: #585fda;
+    width: 10rem;
+    position: absolute;
+    z-index: 100;
+    display: none;
+  }
+  ul li:hover ul.dropdown {
+    background: #fe5f55;
+    display: block;
+    width: 9.5rem;
+  }
+  img{
+   display: block; 
+   margin: 0;     
+   padding: 0;    
+   border: 3px solid #fe5f55;
+   width: 100%; 
+   height: 100%;
+   object-fit: cover;
+  }
+  .brain {
+    width: 100rem;
+    height: 40rem;
+    margin: auto;
+    padding-top: 2rem;
+  }
+  .brain:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 0.3s;
+  }
+  .social {
+    width: 20rem;
+    height: 35rem;
+    display: inline-block;
+    margin: auto;
+    padding: 10rem;
+  }
+  .social:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 0.3s;
+  }
+  .aboutusimage {
+    width: 20rem;
+    height: 35rem;
+    display: inline-block;
+    margin: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .aboutusimage:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 0.3s;
+  }
+  .lanparty {
+    width: 20rem;
+    height: 35rem;
+    display: inline-block;
+    margin: auto;
+    padding-left: 8.5rem;
+    padding-right: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .lanparty:hover {
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 0.3s;
+  }
+  h2.imagetext {
+    color: #fe5f55;
+    font-family: spritecoder;
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-weight: lighter;
+  }
